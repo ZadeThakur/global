@@ -1,56 +1,150 @@
-/* setting image height for the slideshow */
-#image{
-	width:auto;
-	height:600px;
-	
-}
 
-#firstHeading{
-	padding: 1%;
-	text-align: center;
-}
-.bg-img {
-  /* The image used */
-  background-image: url("image5.jpg");
-
+/* The hero image */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("image7.jpg");
   /* Control the height of the image */
-  min-height: 520px;
-
+  height: 650px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
+    
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
+.hero-text button{
+  border:none;
+  outline:0;
+  padding: 10px 25px;
+  display: inline-block;
+  cursor:pointer;
 }
-/* Set a style for the submit button */
-.btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
+
+.secondDiv{
+  float:left;
+  padding-top: 1%;
+  padding-bottom: 1%
+  
+
 }
-/* Add styles to the form container */
-#form {
-    position: absolute;
-    right: 0;
-    margin: 20px;
-    max-width: 27%;
-    padding: 16px;
-    background-color: white;
+#carouselImages{
+  width: auto;
+  height:400px;
+}
+
+
+h2{
+  text-align: center;
+}
+.heading{
+  color: black;
+  text-align: center;
+}
+.heading.ThirdDivLeft{
+  transform: translate(0px,300px);
+}
+.heading.ThirdDivRight{
+  transform: translate(0px,120px);
+}
+.heading.ThirdDivRightBottom{
+  transform: translate(0px,140px);
+}
+
+.secondDiv.left{
+  padding-top: 3px;
+  width:50%;
+  padding-left: 5%;
+  padding-right: 1%;
+}
+
+.secondDiv.right{
+  width:50%;
+  padding-right: 5%;
+  padding-left: 1%
+
+}
+
+
+
+/* third div properties below */
+.heroImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("image11.jpg");
+  /* Control the height of the image */
+  height: 450px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.heroText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.heroText button{
+  border:none;
+  outline:0;
+  padding: 10px 25px;
+  display: inline-block;
+  cursor:pointer;
+}
+
+.fourthDiv{
+  float:left;
+  padding-top: 5%;
+  background-color: #ddd;
+  padding-bottom: 5%;
+}
+.fourthDiv.left{
+  width:50%;
+  padding-right: 1%;
+  padding-left: 10%;
+}
+.fourthDiv.right{
+  width:50%;
+  padding-left: 1%;
+  padding-right: 10%;  
+}
+span{
+  color:black;
+}
+
+.fifthDiv{
+  float:left;
+  width: 100%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #5E5E5E;
+}
+.fifthDiv.one{
+  width:20%;
+}
+.fifthDiv.two{
+  width:20%;
+}
+.fifthDiv.three{
+  width:20%;
+}
+.fifthDiv.four{
+  width:20%;
+}
+.fifthDiv.five{
+  width:20%;
+}
+a{
+  color: white;
 }
